@@ -21,7 +21,7 @@ int printParent(struct node *root,int target)
 		return 1;
 	if(printParent(root->left,target)||printParent(root->right,target))
 	{
-		printf("%d\n",root->data);
+		printf("%d\n\n",root->data);
 		return 1;
 	}
 	return 0;	
