@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 //A Binary Tree Node
 struct node
 {
@@ -28,6 +29,7 @@ int printParent(struct node *root,int target)
 }
 int main()
 {
+	//COMMENT ADDED
 	struct node* root = newNode(1);
     root->left = newNode(2);
     root->right = newNode(3);
